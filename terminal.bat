@@ -1,0 +1,1 @@
+docker exec -it lambda-mysql-python /bin/sh

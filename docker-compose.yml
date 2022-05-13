@@ -1,0 +1,13 @@
+version: "3.9"
+services:
+  mysqlpython:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: mysql-lambda-python 
+    volumes:
+      - ./task:/var/task
+      - ./opt:/opt
+volumes:
+  task: 
+  opt: 
